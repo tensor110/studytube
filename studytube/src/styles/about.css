@@ -1,0 +1,19 @@
+#about{
+    width: 50%;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.buttons button{
+    padding: 0.5rem 2rem;
+    background-color: rgb(115, 200, 201);
+    border: none;
+    border-radius: 5rem;
+}
+@media screen and (max-width: 768px) {
+    #about{
+        width: 100%;
+    } 
+}
