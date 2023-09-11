@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    border: 7px solid white;
+    border: 15px solid white;
     background-color: #e6e6e6;
     border-radius: 4px;
     margin: 5rem;
@@ -21,22 +21,30 @@ nav ul{
 }
 
 nav ul li{
-    padding: 2rem;
+    padding: 0.76rem;
     margin: auto;
+    font-size: large;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* border: 2px solid purple;
     border-radius: 10%; */
 }
-
+nav ul li h1{
+    font-size: 40px;
+}
 .about{
     margin: 2rem;
     padding: 1.5rem;
     border: 1px double #4e4e4e;
 }
+
+
 #Title{
+    display: flex;
+    width: auto;
     font-weight: 600;
     font-size: 30px;
 }
+
 
 .navbar{
     width: 4rem;
@@ -44,15 +52,17 @@ nav ul li{
 
 .carousel{
     margin: 2rem;
-    padding: 1rem;
-    align-items: end;
+    /* padding: 1.5rem; */
+    /* align-items: end; */
     border: 1px double #4e4e4e;
 }
 .logo-img{
-    height: 100px;
+    display: inline;
+    width: 45px;
 }
 .carousel-item{
-    padding: 1rem;
+    border: 2rem ;
+    padding: 1.5rem;
 }
 
 .content{
